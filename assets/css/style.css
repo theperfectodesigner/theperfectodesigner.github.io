@@ -445,7 +445,7 @@ ol {
 }
 
 ul {
-  list-style: square;
+  list-style: var(--color-body);
   margin-bottom: 30px;
   padding-left: 20px;
 }
@@ -479,14 +479,14 @@ ul li {
   line-height: var(--line-height-b1);
   margin-top: 10px;
   margin-bottom: 10px;
-  color: var(--color-body);
+  color: var(--color-heading-wv);
 }
 ul li a {
   text-decoration: none;
-  color: var(--color-gray);
+  color: var(--color-body);
 }
 ul li a:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 ul ul {
   margin-bottom: 0;
@@ -503,11 +503,11 @@ ol li {
   margin-bottom: 10px;
 }
 ol li a {
-  color: var(--color-heading);
+  color: var(--color-secondary);
   text-decoration: none;
 }
 ol li a:hover {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 ol ul {
   padding-left: 30px;
